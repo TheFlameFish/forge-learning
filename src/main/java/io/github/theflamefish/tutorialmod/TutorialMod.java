@@ -1,6 +1,7 @@
 package io.github.theflamefish.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import io.github.theflamefish.tutorialmod.block.ModBlocks;
 import io.github.theflamefish.tutorialmod.item.ModCreativeModeTabs;
 import io.github.theflamefish.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -33,6 +34,7 @@ public class TutorialMod {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
