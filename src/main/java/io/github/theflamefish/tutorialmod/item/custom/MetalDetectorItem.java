@@ -1,6 +1,7 @@
 package io.github.theflamefish.tutorialmod.item.custom;
 
 import io.github.theflamefish.tutorialmod.block.ModBlocks;
+import io.github.theflamefish.tutorialmod.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -64,7 +65,8 @@ public class MetalDetectorItem extends Item {
     }
 
     public boolean isValuableBlock(BlockState state) {
-        return state.is(Blocks.IRON_ORE)
+        return state.is(ModTags.Blocks.METAL_DETECTOR_VARIABLES);
+        /* return state.is(Blocks.IRON_ORE)
                 || state.is(Blocks.DIAMOND_ORE)
                 || state.is(Blocks.DEEPSLATE_IRON_ORE)
                 || state.is(Blocks.DEEPSLATE_DIAMOND_ORE)
@@ -73,6 +75,6 @@ public class MetalDetectorItem extends Item {
                 || state.is(ModBlocks.SAPPHIRE_ORE.get())
                 || state.is(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get())
                 || state.is(ModBlocks.NETHER_SAPPHIRE_ORE.get())
-                || state.is(ModBlocks.END_STONE_SAPPHIRE_ORE.get()); // Obviously this method sucks, apparently this'll be replaced later
+                || state.is(ModBlocks.END_STONE_SAPPHIRE_ORE.get()); // Obviously this method sucks, apparently this'll be replaced later */
     }
 }
