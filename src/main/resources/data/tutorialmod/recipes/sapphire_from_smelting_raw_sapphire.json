@@ -3,9 +3,9 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.7,
-  "group": "iron_ingot",
+  "group": "sapphire",
   "ingredient": {
-    "item": "minecraft:raw_iron"
+    "item": "tutorialmod:raw_sapphire"
   },
-  "result": "minecraft:iron_ingot"
+  "result": "tutorialmod:sapphire"
 }

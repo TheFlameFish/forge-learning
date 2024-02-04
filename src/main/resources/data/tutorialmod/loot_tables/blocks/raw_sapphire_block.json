@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tutorialmod:sapphire_block"
+          "name": "tutorialmod:raw_sapphire_block"
         }
       ],
       "rolls": 1.0

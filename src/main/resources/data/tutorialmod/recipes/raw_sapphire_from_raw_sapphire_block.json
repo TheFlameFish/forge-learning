@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "tutorialmod:sapphire_block"
+      "item": "tutorialmod:raw_sapphire_block"
     }
   ],
   "result": {
-    "item": "tutorialmod:sapphire",
+    "item": "tutorialmod:raw_sapphire",
     "count": 9
   }
 }
