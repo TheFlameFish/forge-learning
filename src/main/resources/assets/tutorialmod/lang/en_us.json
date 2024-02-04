@@ -15,5 +15,8 @@
   "block.tutorialmod.sound_block": "Sound Block",
   "block.tutorialmod.nuke_block": "Nuke",
 
+  "tooltip.tutorialmod.metal_detector.tooltip": "Locates certain ores underground.",
+  "tooltip.tutorialmod.sound_block.tooltip": "Makes nice sounds upon being used.",
+
   "creativetab.tutorial_tab": "Sapphire Tutorial"
 }
