@@ -1,4 +1,4 @@
-package io.github.theflamefish.tutorialmod.block.custom;
+package io.github.theflamefish.tutorialmod.item.custom;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;

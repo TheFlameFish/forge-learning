@@ -1,7 +1,7 @@
 package io.github.theflamefish.tutorialmod.item;
 
 import io.github.theflamefish.tutorialmod.TutorialMod;
-import io.github.theflamefish.tutorialmod.block.custom.FuelItem;
+import io.github.theflamefish.tutorialmod.item.custom.FuelItem;
 import io.github.theflamefish.tutorialmod.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
