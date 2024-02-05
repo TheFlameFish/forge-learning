@@ -35,16 +35,16 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
                     .sound(SoundType.AMETHYST)));
 
-    public static final RegistryObject<DropExperienceBlock> SAPPHIRE_ORE = registerBlock("sapphire_ore",
+    public static final RegistryObject<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
-    public static final RegistryObject<DropExperienceBlock> DEEPSLATE_SAPPHIRE_ORE = registerBlock("deepslate_sapphire_ore",
+    public static final RegistryObject<Block> DEEPSLATE_SAPPHIRE_ORE = registerBlock("deepslate_sapphire_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
                     .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)));
-    public static final RegistryObject<DropExperienceBlock> NETHER_SAPPHIRE_ORE = registerBlock("nether_sapphire_ore",
+    public static final RegistryObject<Block> NETHER_SAPPHIRE_ORE = registerBlock("nether_sapphire_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)
                     .strength(1f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)));
-    public static final RegistryObject<DropExperienceBlock> END_STONE_SAPPHIRE_ORE = registerBlock("end_stone_sapphire_ore",
+    public static final RegistryObject<Block> END_STONE_SAPPHIRE_ORE = registerBlock("end_stone_sapphire_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
                     .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)));
     public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",

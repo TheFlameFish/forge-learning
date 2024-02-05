@@ -1,6 +1,5 @@
 package io.github.theflamefish.tutorialmod.item.custom;
 
-import io.github.theflamefish.tutorialmod.block.ModBlocks;
 import io.github.theflamefish.tutorialmod.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
@@ -13,7 +12,6 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
 
@@ -65,7 +63,7 @@ public class MetalDetectorItem extends Item {
     }
 
     public boolean isValuableBlock(BlockState state) {
-        return state.is(ModTags.Blocks.METAL_DETECTOR_VARIABLES);
+        return state.is(ModTags.Blocks.METAL_DETECTOR_VALUABLES);
         /* return state.is(Blocks.IRON_ORE)
                 || state.is(Blocks.DIAMOND_ORE)
                 || state.is(Blocks.DEEPSLATE_IRON_ORE)
